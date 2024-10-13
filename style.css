@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.box1 {
+    background-color: aqua;
+    flex: 1;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: bold;
+
+}
+
+.box2 {
+margin: 50px;
+background-color: aqua;
+flex: 1;
+height: 400px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+
+}
+
+.box3 {
+    background-color: aqua;
+    flex: 1;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: end;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+
+.container {
+    flex-direction: column;
+}
+}
